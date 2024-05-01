@@ -1,0 +1,9 @@
+{
+	"extends": "@tsconfig/node20/tsconfig.json",
+	"compilerOptions": {
+		"sourceMap": true,
+		"outDir": "bin",
+		"lib": ["DOM", "ES2023"]
+	},
+	"include": ["src/**/*"]
+}

@@ -1,0 +1,23 @@
+{
+	"name": "gibbs-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "bin/app.js",
+	"scripts": {
+		"start": "tsc && node bin/app.js",
+		"lint": "eslint src",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Hawkings",
+	"devDependencies": {
+		"@eslint/js": "^9.1.1",
+		"eslint": "^8.57.0",
+		"globals": "^15.1.0",
+		"typescript": "^5.4.5",
+		"typescript-eslint": "^7.8.0"
+	},
+	"dependencies": {
+		"@tsconfig/node20": "^20.1.4"
+	}
+}
