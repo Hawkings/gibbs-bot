@@ -1,3 +1,9 @@
+# Startup script including secret env variables
+start.ps1
+
+# Output files
+bin/
+
 # Logs
 logs
 *.log

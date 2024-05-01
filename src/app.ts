@@ -1,1 +1,1 @@
-console.log("program started");
+console.log(process.env.TOKEN);
